@@ -1,0 +1,60 @@
+.nav {
+  position: fixed;
+  z-index: 111111111111;
+  top: 0;
+  border-right: 1px solid #d8d8d8;
+  background: white;
+}
+.nav__list {
+  padding-right: 53px;
+}
+.nav .item {
+  padding-bottom: 30px;
+}
+.nav .item__leni {
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+.nav .item__btn {
+  max-width: 230px;
+  width: 100%;
+  display: block;
+  padding: 15px 90px;
+  background: #1d9bf0;
+  border-radius: 27.5px;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.nav__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 0;
+}
+.nav__logo {
+  padding-top: 30px;
+}
+.nav__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.6;
+}
+@media screen and (max-width: 576px) {
+  .nav__list {
+    padding: 0;
+    padding: 10px;
+  }
+}
+
